@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import { Button } from "react-bootstrap";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./components/contact/Contact.jsx";
@@ -8,7 +7,7 @@ import Home from "./components/cemetary/Home.jsx";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Grooming" element={<Grooming />} />

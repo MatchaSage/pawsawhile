@@ -1,5 +1,9 @@
 import React from "react";
-
+import PawsHero from "./PawsHero";
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="home">
+      <PawsHero />
+    </div>
+  );
 }
