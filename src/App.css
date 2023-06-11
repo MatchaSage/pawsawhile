@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/*Hero Start*/
 .paws-hero {
   height: 90vh;
 }
@@ -24,4 +25,17 @@
 
 .hero-text h2 {
   font-size: 3rem;
+}
+/*Hero End*/
+
+/*Grounds Start*/
+.paws-grounds {
+  height: 90vh;
+}
+
+.grounds-background {
+  background-image: url("./images/grounds1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
