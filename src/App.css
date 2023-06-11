@@ -41,6 +41,12 @@
 }
 /*Grounds End*/
 
+/*Location Start*/
+.paws-location iframe {
+  max-width: 500px;
+}
+/*Location End*/
+
 .paws-proposition {
   color: white;
   background-color: black;

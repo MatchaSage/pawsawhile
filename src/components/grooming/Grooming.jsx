@@ -3,10 +3,13 @@ import React, { useEffect } from "react";
 import GroomingInfo from "./GroomingInfo";
 import GroomingServices from "./GroomingServices";
 import GroomingProp from "./GroomingProposition";
+import Header from "../Header";
+import Footer from "../Footer";
 
 export default function Grooming() {
   return (
     <div className="grooming-header">
+      <Header />
       <div className="grooming-background">
         <div
           className="h-100 mask"
@@ -23,6 +26,7 @@ export default function Grooming() {
       <GroomingInfo />
       <GroomingServices />
       <GroomingProp />
+      <Footer />
     </div>
   );
 }
