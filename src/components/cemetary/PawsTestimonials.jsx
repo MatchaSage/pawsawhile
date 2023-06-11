@@ -3,7 +3,7 @@ import React from "react";
 export default function PawsTestimonials() {
   return (
     <div className="paws-testimonials d-flex flex-column">
-      <h1>Testimonials</h1>
+      <h1 className="align-self-center">Testimonials</h1>
       <div className="testimonial-container d-flex flex-row">
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque esse

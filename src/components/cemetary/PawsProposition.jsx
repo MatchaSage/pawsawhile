@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function PawsProposition() {
   return (
-    <div className="paws-proposition d-flex justify-content-center flex-column">
+    <div className="paws-proposition d-flex justify-content-center align-items-center flex-column">
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
         similique in odit expedita sit ad nihil, exercitationem eos quo
