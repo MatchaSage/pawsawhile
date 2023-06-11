@@ -45,3 +45,72 @@
   color: white;
   background-color: black;
 }
+
+/*Grooming Styling*/
+
+.grooming-header {
+  height: 90vh;
+}
+
+.grooming-background {
+  height: 100%;
+  background-image: url(./images/cemetaryEntrance.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+.grooming-header--text > h1 {
+  font-size: 5rem;
+}
+
+.grooming-info-container {
+  background-color: rgb(233, 205, 171);
+}
+
+.grooming-info--header-text {
+  font-size: 4rem;
+}
+
+.grooming-info--paragraph-container > p {
+  font-size: 1.3rem;
+}
+
+.grooming-services-container {
+  background-color: rgb(233, 205, 171);
+  gap: 40px;
+}
+
+.grooming-services--header-text {
+  font-size: 4rem;
+}
+
+.services-container {
+  gap: 50px;
+}
+
+.services-container--one,
+.services-container--two {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.picture-container > img {
+  width: 500px;
+  height: 300px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.proposition-container {
+  background-color: rgb(233, 205, 171);
+}
+
+/*Contact Styling*/
+.contact-container {
+  background-color: tan;
+  height: 100vh;
+}
