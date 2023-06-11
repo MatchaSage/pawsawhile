@@ -116,7 +116,23 @@ a {
 }
 
 /*Contact Styling*/
+
 .contact-container {
   background-color: tan;
   height: 100vh;
+}
+
+.paws-contact-container {
+  height: 90vh;
+  background-size: cover;
+  background-image: url(./images/paws-entrance.JPG);
+}
+
+label {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.submit-button {
+  width: 80px;
 }
