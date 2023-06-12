@@ -7,21 +7,14 @@ import Home from "./components/cemetary/Home.jsx";
 
 export default function App() {
   const [hasMounted, setHasMounted] = useState(false);
-  //Use effect concept to fix the refresh bug.
-  useEffect(() => {
-    setHasMounted(true);
-  }, []);
-  if (!hasMounted) {
-    return null;
-  } else {
-    return (
-      <div className="app">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="Grooming" element={<Grooming />} />
-          <Route path="Contact" element={<Contact />} />
-        </Routes>
-      </div>
-    );
-  }
+
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="Grooming" element={<Grooming />} />
+        <Route path="Contact" element={<Contact />} />
+      </Routes>
+    </div>
+  );
 }
