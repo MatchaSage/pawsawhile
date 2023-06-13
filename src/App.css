@@ -122,10 +122,16 @@ a {
   height: 100vh;
 }
 
+.paws-contact--form {
+  padding-right: 40%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
 .paws-contact-container {
   height: 90vh;
   background-size: cover;
-  background-image: url(./images/paws-entrance.JPG);
+  /* background-image: url(./images/paws-entrance.JPG); */
 }
 
 label {
