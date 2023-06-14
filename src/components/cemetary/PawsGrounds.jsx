@@ -1,5 +1,6 @@
 import React from "react";
-import grounds1 from "../../images/grounds1.jpg";
+import Carousel from "./Carousel";
+
 export default function PawsGrounds() {
   return (
     <div className="paws-grounds">
@@ -12,7 +13,7 @@ export default function PawsGrounds() {
             ducimus quam ipsam consequuntur hic magnam modi obcaecati maxime
             ipsum amet!
           </p>
-          <img src={grounds1} alt="" />
+          <Carousel />
         </div>
       </div>
     </div>

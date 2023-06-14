@@ -2,6 +2,24 @@
   box-sizing: border-box;
 }
 
+.arrow {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.left-arrow {
+  transform: rotate(135deg);
+}
+
+.right-arrow {
+  transform: rotate(-45deg);
+}
+
 body {
   font-family: "Inter" Arial, Helvetica, sans-serif !important;
   background-color: #ff757d;
