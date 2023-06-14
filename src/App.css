@@ -114,8 +114,7 @@ body {
 }
 
 .picture-container > img {
-  width: 500px;
-  height: 300px;
+  width: 25%;
   border-radius: 10px;
   border: 2px outset white;
 }
@@ -137,9 +136,11 @@ a {
 
 /*Contact Styling*/
 
-.contact-container {
-  background-color: #ff757d;
-  height: 100vh;
+.contact-background {
+  height: 90vh;
+  background-image: url("./images/paws-entrance.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .paws-contact--form {
@@ -148,14 +149,20 @@ a {
   padding-bottom: 2%;
 }
 
+.contact-header--text > h1 {
+  font-size: 5rem;
+}
+
 .paws-contact-container {
   height: 90vh;
   background-size: cover;
+  background-color: #ff757d;
+  width: 80%;
   /* background-image: url(./images/paws-entrance.JPG); */
 }
 
-.grooming-contact-container {
-  background-color: #8f252b;
+.contact-container {
+  background-color: white;
 }
 
 label {
@@ -165,6 +172,10 @@ label {
 
 .submit-button {
   width: 80px;
+}
+
+textarea {
+  resize: none;
 }
 
 /* Media Queries */
