@@ -7,7 +7,7 @@ export default function groomingInfo() {
         Grooming Info
       </h1>
       <div className="grooming-info--paragraph-container w-75">
-        <p className="lead pb-4">
+        <p className="lead pb-4 grooming-para-text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
           sapiente assumenda, laboriosam illo corrupti aperiam nulla cupiditate
           perferendis velit maiores, consectetur, pariatur libero doloremque

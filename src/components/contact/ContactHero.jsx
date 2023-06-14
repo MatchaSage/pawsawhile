@@ -8,7 +8,7 @@ export default function contactHero() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
       >
         <div className="contact-header--text flex-column text-white h-100 container d-flex justify-content-center align-items-center">
-          <h1 className="mb-5">Contact Us</h1>
+          <h1 className="mb-5 contact-hero-header-text">Contact Us</h1>
         </div>
       </div>
     </div>

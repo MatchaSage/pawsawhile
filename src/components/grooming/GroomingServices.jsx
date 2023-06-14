@@ -6,13 +6,13 @@ export default function groomingServices() {
     <div className="grooming-services-container d-flex flex-column align-items-center pt-5 p-5">
       <h1 className="grooming-services--header-text">Services</h1>
       <div className="services-container  d-flex flex-row">
-        <div className="services-container--one d-flex flex-column">
+        <div className="services-container--one d-flex flex-column grooming-para-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
 
-        <div className="services-container--two d-flex flex-column">
+        <div className="services-container--two d-flex flex-column grooming-para-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../images/paws_logo.png";
 export default function Header() {
   return (
-    <header className="sticky-top">
+    <header className="fixed-top">
       <nav className="d-flex justify-content-between align-items-center p-2">
         <div className="logo-container">
           <Link to="/">

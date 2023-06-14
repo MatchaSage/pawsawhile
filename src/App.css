@@ -273,10 +273,10 @@ a {
 }
 
 .paws-contact-container {
-  height: 90vh;
   background-size: cover;
   background-color: #ff757d;
   width: 80%;
+  border-radius: 10px;
   /* background-image: url(./images/paws-entrance.JPG); */
 }
 
@@ -286,22 +286,45 @@ a {
 
 label {
   font-size: 1.3rem;
-  color: white;
+  color: black;
 }
 
 .submit-button {
   width: 80px;
+  background-color: #004812;
+  border: none;
 }
 
 textarea {
   resize: none;
 }
 
+.contact-logo {
+  width: 20%;
+}
+
+.form-content {
+  gap: 30px;
+}
+
+.grooming-contact-container {
+  background-color: #178f35;
+  width: 80%;
+  border-radius: 10px;
+}
+.grooming-contact-container > span {
+  font-size: 1.6rem;
+}
+
+.paws-contact-text {
+  font-size: 1.6rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 600px) {
   .grooming-header--text > h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
     text-align: center;
   }
 
@@ -311,7 +334,7 @@ textarea {
   }
 
   .grooming-services--header-text {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -326,5 +349,49 @@ textarea {
 
   .picture-container > p {
     font-size: 0.8rem;
+  }
+
+  .contact-logo {
+    width: 80%;
+  }
+
+  .paws-contact-text,
+  .grooming-contact-container > h1 {
+    font-size: 1.3rem;
+  }
+
+  .grooming-contact--text {
+    font-size: 1.1rem !important;
+  }
+
+  .contact-hero-header-text {
+    font-size: 3.2rem !important;
+  }
+
+  .grooming-para-text {
+    font-size: 1rem !important;
+  }
+
+  .grooming-info-container,
+  .grooming-services-container,
+  .proposition-container {
+    padding: 0 !important;
+  }
+
+  .grooming-info--paragraph-container {
+    width: 90% !important;
+  }
+
+  .business-proposition-text {
+    padding-top: 20px;
+    width: 90% !important;
+  }
+
+  .proposition-container {
+    padding-bottom: 20px !important;
+  }
+
+  .grooming-services--header-text {
+    padding-top: 10px;
   }
 }
