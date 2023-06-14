@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Inter, sans-serif !important;
+}
+
+:root {
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-light: 400;
+}
+
 /*Hero Start*/
 .paws-hero {
   height: 90vh;
@@ -71,19 +81,21 @@
 }
 
 .grooming-info-container {
-  background-color: rgb(233, 205, 171);
+  background-color: #db4f57;
 }
 
 .grooming-info--header-text {
   font-size: 4rem;
+  font-weight: var(--font-weight-medium);
 }
 
 .grooming-info--paragraph-container > p {
   font-size: 1.3rem;
+  font-weight: var(--font-weight-light);
 }
 
 .grooming-services-container {
-  background-color: rgb(233, 205, 171);
+  background-color: #ff757d;
   gap: 40px;
 }
 
@@ -98,7 +110,7 @@
 .services-container--one,
 .services-container--two {
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .picture-container > img {
@@ -112,7 +124,12 @@ a {
 }
 
 .proposition-container {
-  background-color: rgb(233, 205, 171);
+  background-color: #8f252b;
+}
+
+.business-proposition-text {
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 /*Contact Styling*/
@@ -141,4 +158,40 @@ label {
 
 .submit-button {
   width: 80px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .grooming-header--text > h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .grooming-info--header-text {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .grooming-services--header-text {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .services-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .picture-container > img {
+    width: 90%;
+  }
+
+  .business-proposition-text {
+    text-align: center;
+  }
+
+  .picture-container > p {
+    font-size: 0.8rem;
+  }
 }

@@ -3,7 +3,7 @@ import dogPic from "../../images/dog-beach.jpg";
 
 export default function groomingServices() {
   return (
-    <div className="grooming-services-container d-flex flex-column align-items-center">
+    <div className="grooming-services-container d-flex flex-column align-items-center pt-5">
       <h1 className="grooming-services--header-text">Services</h1>
       <div className="services-container  d-flex flex-row">
         <div className="services-container--one d-flex flex-column">

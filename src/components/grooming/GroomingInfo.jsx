@@ -2,7 +2,7 @@ import React from "react";
 
 export default function groomingInfo() {
   return (
-    <div className="grooming-info-container d-flex flex-column align-items-center gap-3">
+    <div className="grooming-info-container d-flex flex-column align-items-center gap-3 pt-5">
       <h1 className="grooming-info--header-text container d-flex justify-content-center align-items-center pt-2">
         Grooming Info
       </h1>
