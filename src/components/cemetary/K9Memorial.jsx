@@ -2,7 +2,7 @@ import React from "react";
 
 export default function K9Memorial() {
   return (
-    <div className="k9-memorial d-flex flex-column align-items-center ">
+    <div className="k9-memorial d-flex flex-column align-items-center py-5 bg-light">
       <h1>K9 Memorial</h1>
       <iframe
         width="560"

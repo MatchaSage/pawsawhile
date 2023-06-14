@@ -2,6 +2,36 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter" Arial, Helvetica, sans-serif !important;
+  background-color: #ff757d;
+}
+
+/*Header Start*/
+
+header {
+  opacity: 0.9;
+  background-color: #ff757d;
+}
+
+header a {
+  font-size: 1.5rem;
+}
+
+header a:hover {
+  color: #004812;
+}
+header img {
+  height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  header a {
+    font-size: 1rem;
+  }
+}
+/*Header End*/
+
 /*Hero Start*/
 .paws-hero {
   height: 90vh;
@@ -26,20 +56,62 @@
 .hero-text h2 {
   font-size: 3rem;
 }
+
+@media screen and (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+}
 /*Hero End*/
+
+/*Paws About Start*/
+.paws-about-content {
+  gap: 30px;
+}
+.paws-about-text {
+  max-width: 700px;
+}
+
+@media screen and (max-width: 600px) {
+  .paws-about img {
+    max-width: 80% !important;
+  }
+}
+/*Paws About End*/
 
 /*Grounds Start*/
 .paws-grounds {
   height: 90vh;
+  background-color: #ff757d !important;
 }
 
 .grounds-background {
-  background-image: url("./images/grounds1.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-color: #ff757d;
 }
 /*Grounds End*/
+
+/*Memorial Start*/
+.k9-memorial iframe {
+  max-width: 90%;
+}
+/*Memorial End*/
+
+/*Testimonial Start*/
+
+.paws-testimonials {
+  background-color: #db4f57;
+}
+.testimonial-container {
+  gap: 20px;
+}
+
+.testimonial {
+  max-width: 600px;
+}
+/*Testimonial End*/
 
 /*Location Start*/
 .paws-location iframe {
@@ -47,10 +119,22 @@
 }
 /*Location End*/
 
+/*Joe About Start*/
+
+/*Joe About End*/
+
+/*Proposition Start*/
 .paws-proposition {
   color: white;
+  background-color: #8f252b;
+}
+/*Proposition End*/
+
+/*Footer Start*/
+footer {
   background-color: black;
 }
+/*Footer End*/
 
 /*Grooming Styling*/
 
