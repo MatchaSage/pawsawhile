@@ -77,20 +77,30 @@ header img {
 
 @media screen and (max-width: 600px) {
   .paws-about img {
-    max-width: 80% !important;
+    max-width: 100% !important;
   }
 }
 /*Paws About End*/
 
 /*Grounds Start*/
 .paws-grounds {
-  height: 90vh;
   background-color: #ff757d !important;
 }
 
 .grounds-background {
   background-color: #ff757d;
 }
+
+.grounds-content img {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .paws-grounds img {
+    width: 100%;
+  }
+}
+
 /*Grounds End*/
 
 /*Memorial Start*/
@@ -120,7 +130,18 @@ header img {
 /*Location End*/
 
 /*Joe About Start*/
+.about-joe-content {
+  gap: 30px;
+}
+.about-joe-content img {
+  width: 50%;
+}
 
+@media screen and (max-width: 600px) {
+  .about-joe-content img {
+    width: 100%;
+  }
+}
 /*Joe About End*/
 
 /*Proposition Start*/
