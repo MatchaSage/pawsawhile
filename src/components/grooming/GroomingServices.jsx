@@ -3,7 +3,7 @@ import dogPic from "../../images/dog-beach.jpg";
 
 export default function groomingServices() {
   return (
-    <div className="grooming-services-container d-flex flex-column align-items-center pt-5">
+    <div className="grooming-services-container d-flex flex-column align-items-center pt-5 p-5">
       <h1 className="grooming-services--header-text">Services</h1>
       <div className="services-container  d-flex flex-row">
         <div className="services-container--one d-flex flex-column">
@@ -20,7 +20,7 @@ export default function groomingServices() {
       </div>
       <div className="picture-container d-flex flex-column align-items-center">
         <img src={dogPic} alt="border collie on a beach"></img>
-        <p>
+        <p className="pt-2">
           Photo by{" "}
           <a href="https://unsplash.com/es/@paulinel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             Pauline Loroy
