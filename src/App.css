@@ -81,7 +81,7 @@ body {
 }
 
 .grooming-info-container {
-  background-color: #db4f57;
+  background-color: white;
 }
 
 .grooming-info--header-text {
@@ -116,6 +116,8 @@ body {
 .picture-container > img {
   width: 500px;
   height: 300px;
+  border-radius: 10px;
+  border: 2px outset white;
 }
 
 a {
@@ -129,13 +131,14 @@ a {
 
 .business-proposition-text {
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: var(--font-weight-light);
+  color: white;
 }
 
 /*Contact Styling*/
 
 .contact-container {
-  background-color: tan;
+  background-color: #ff757d;
   height: 100vh;
 }
 
@@ -149,6 +152,10 @@ a {
   height: 90vh;
   background-size: cover;
   /* background-image: url(./images/paws-entrance.JPG); */
+}
+
+.grooming-contact-container {
+  background-color: #8f252b;
 }
 
 label {
@@ -184,11 +191,7 @@ label {
   }
 
   .picture-container > img {
-    width: 90%;
-  }
-
-  .business-proposition-text {
-    text-align: center;
+    width: 95%;
   }
 
   .picture-container > p {
