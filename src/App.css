@@ -87,6 +87,15 @@ header img {
   .hero-text h2 {
     font-size: 2rem;
   }
+
+  .paws-about,
+  .grounds-background,
+  .paws-testimonials,
+  .about-joe,
+  .paws-proposition {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }
 /*Hero End*/
 
@@ -128,7 +137,7 @@ header img {
 
 /*Memorial Start*/
 .k9-memorial iframe {
-  max-width: 90%;
+  max-width: 95%;
 }
 /*Memorial End*/
 
