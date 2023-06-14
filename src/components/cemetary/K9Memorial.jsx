@@ -5,11 +5,13 @@ export default function K9Memorial() {
     <div className="k9-memorial d-flex flex-column align-items-center ">
       <h1>K9 Memorial</h1>
       <iframe
-        src="https://youtu.be/peqWqkcGAmM"
-        allow="autoplay; encrypted-media"
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/peqWqkcGAmM"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-        title="video"
-      />
+      ></iframe>
     </div>
   );
 }
