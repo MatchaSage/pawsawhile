@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ff757d;
+  font-family: Inter, sans-serif !important;
+}
+
+:root {
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-light: 400;
+}
+
 .arrow {
   cursor: pointer;
   height: 30px;
@@ -18,17 +29,6 @@
 
 .right-arrow {
   transform: rotate(-45deg);
-}
-
-body {
-  font-family: Inter, sans-serif !important;
-  background-color: #ff757d;
-}
-
-:root {
-  --font-weight-bold: 600;
-  --font-weight-medium: 500;
-  --font-weight-light: 400;
 }
 
 /*Header Start*/
@@ -55,6 +55,7 @@ header img {
   }
 }
 /*Header End*/
+
 /*Hero Start*/
 .paws-hero {
   height: 90vh;
@@ -241,8 +242,7 @@ footer {
 }
 
 .picture-container > img {
-  width: 500px;
-  height: 300px;
+  width: 25%;
   border-radius: 10px;
   border: 2px outset white;
 }
@@ -264,9 +264,11 @@ a {
 
 /*Contact Styling*/
 
-.contact-container {
-  background-color: #ff757d;
-  height: 100vh;
+.contact-background {
+  height: 90vh;
+  background-image: url("./images/paws-entrance.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .paws-contact--form {
@@ -275,30 +277,63 @@ a {
   padding-bottom: 2%;
 }
 
+.contact-header--text > h1 {
+  font-size: 5rem;
+}
+
 .paws-contact-container {
-  height: 90vh;
   background-size: cover;
+  background-color: #ff757d;
+  width: 80%;
+  border-radius: 10px;
   /* background-image: url(./images/paws-entrance.JPG); */
 }
 
-.grooming-contact-container {
-  background-color: #8f252b;
+.contact-container {
+  background-color: white;
 }
 
 label {
   font-size: 1.3rem;
-  color: white;
+  color: black;
 }
 
 .submit-button {
   width: 80px;
+  background-color: #004812;
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-logo {
+  width: 20%;
+}
+
+.form-content {
+  gap: 30px;
+}
+
+.grooming-contact-container {
+  background-color: #178f35;
+  width: 80%;
+  border-radius: 10px;
+}
+.grooming-contact-container > span {
+  font-size: 1.6rem;
+}
+
+.paws-contact-text {
+  font-size: 1.6rem;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 600px) {
   .grooming-header--text > h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
     text-align: center;
   }
 
@@ -308,7 +343,7 @@ label {
   }
 
   .grooming-services--header-text {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -323,5 +358,49 @@ label {
 
   .picture-container > p {
     font-size: 0.8rem;
+  }
+
+  .contact-logo {
+    width: 80%;
+  }
+
+  .paws-contact-text,
+  .grooming-contact-container > h1 {
+    font-size: 1.3rem;
+  }
+
+  .grooming-contact--text {
+    font-size: 1.1rem !important;
+  }
+
+  .contact-hero-header-text {
+    font-size: 3.2rem !important;
+  }
+
+  .grooming-para-text {
+    font-size: 1rem !important;
+  }
+
+  .grooming-info-container,
+  .grooming-services-container,
+  .proposition-container {
+    padding: 0 !important;
+  }
+
+  .grooming-info--paragraph-container {
+    width: 90% !important;
+  }
+
+  .business-proposition-text {
+    padding-top: 20px;
+    width: 90% !important;
+  }
+
+  .proposition-container {
+    padding-bottom: 20px !important;
+  }
+
+  .grooming-services--header-text {
+    padding-top: 10px;
   }
 }
