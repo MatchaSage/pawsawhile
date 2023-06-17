@@ -11,7 +11,7 @@ export default function pawsContact() {
             Name
           </label>
           <input type="text" id="name" name="name" required></input>
-          <label htmlFor="phoneNumber" className="pt-2">
+          <label htmlFor="number" className="pt-2">
             Number
           </label>
           <input type="tel" id="number" name="number" required></input>
