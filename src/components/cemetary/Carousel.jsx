@@ -12,12 +12,16 @@ export default function Carousel() {
   function incrementLength() {
     if (length < 4) {
       setLength(length + 1);
+    } else {
+      setLength(0);
     }
   }
 
   function decrementLength() {
     if (length > 0) {
       setLength(length - 1);
+    } else {
+      setLength(4);
     }
   }
   return (
