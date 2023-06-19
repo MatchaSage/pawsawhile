@@ -6,7 +6,7 @@ export default function pawsContact() {
     <div className="paws-contact-container d-flex flex-column align-items-center justify-content-between p-5 mt-5">
       <img className="contact-logo" src={Logo} alt="Logo" />
       <div className="d-flex flex-md-row flex-column form-content">
-        <form className="d-flex flex-column">
+        <form className="d-flex flex-column" name="submission-form" netlify>
           <label htmlFor="name" className="pt-2">
             Name
           </label>
