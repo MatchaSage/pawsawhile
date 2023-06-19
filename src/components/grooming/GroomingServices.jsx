@@ -21,11 +21,11 @@ export default function groomingServices() {
       <div className="picture-container d-flex flex-column align-items-center">
         <img src={dogPic} alt="border collie on a beach"></img>
         <p className="pt-2">
-          Photo by{" "}
+          Photo by
           <a href="https://unsplash.com/es/@paulinel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             Pauline Loroy
-          </a>{" "}
-          on{" "}
+          </a>
+          on
           <a href="https://unsplash.com/photos/U3aF7hgUSrk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             Unsplash
           </a>
