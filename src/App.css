@@ -273,8 +273,7 @@ footer {
   gap: 50px;
 }
 
-.services-container--one,
-.services-container--two {
+.services-container--one {
   font-size: 1.3rem;
   font-weight: 400;
 }

@@ -10,14 +10,10 @@ export default function groomingServices() {
           <ul>
             <li>Shaving Pads</li>
             <li>Nail Trimming</li>
-            <li>Special bathing and conditioning</li>
-          </ul>
-        </div>
-
-        <div className="services-container--two d-flex flex-column grooming-para-text align-items-start ">
-          <ul>
+            <li>Special Bathing and Conditioning</li>
             <li>Cleaning Ears</li>
-            <li>Expressing anal glands</li>
+            <li>Expressing Anal Glands</li>
+            <li>Fluff Dry</li>
             <li>Complete all breed grooming for dogs and cats</li>
           </ul>
         </div>
