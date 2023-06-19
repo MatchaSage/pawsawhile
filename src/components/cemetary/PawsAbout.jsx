@@ -8,17 +8,18 @@ export default function PawsAbout() {
       </div>
       <div className="paws-about-content d-flex flex-column justify-content-center align-items-center align-items-md-start flex-md-row">
         <p className="paws-about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odio
-          beatae labore id! Dolorum maiores dolorem nisi, doloremque laudantium
-          inventore eum voluptatibus illum provident, assumenda laboriosam neque
-          cupiditate nesciunt voluptates iusto consequatur quasi ducimus nam
-          error totam exercitationem ipsum libero. Corrupti voluptatibus dolorem
-          assumenda unde iure quis tenetur itaque? Neque eligendi hic esse, sit
-          nam commodi doloribus eveniet reprehenderit, ut alias perferendis quae
-          eaque rerum explicabo vel nisi recusandae? Quisquam, voluptatibus quam
-          recusandae delectus ab quo accusantium, eum autem amet nihil natus
-          nemo? Sit ad doloribus asperiores harum debitis laboriosam repellendus
-          saepe dicta delectus et! Alias itaque corrupti a iste?
+          Paws Awhile has been providing proffesional afterlife options to pet
+          owners for the past 33 years. We are a family owned business
+          conveniently located on a 23 acre wooded park-like setting adjacent to
+          the Cuyahoga Valley National Park in Richfield, and roughly 16 miles
+          from Cleveland or Akron. Our family and staff have come to appreciate
+          knowing many of our customers pets throughout their entire lives thus
+          encouraging us to provide the highest quality service in both life and
+          death. We look forward to providing the custom quality care that you,
+          your family, and most importantly, your pet deserves. We understand
+          that every situation is different, that's why Paws Awhile offers a
+          wide range of services to fit any budget, from the most elegant and
+          elaborate to the simplest with dignity.
         </p>
         <img
           className="img-fluid justify-content-center"

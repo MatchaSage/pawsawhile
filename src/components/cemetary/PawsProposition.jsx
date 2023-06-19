@@ -5,10 +5,8 @@ export default function PawsProposition() {
   return (
     <div className="paws-proposition d-flex justify-content-center align-items-center flex-column p-5">
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
-        similique in odit expedita sit ad nihil, exercitationem eos quo
-        temporibus minima, iusto tempora, unde assumenda! Obcaecati voluptates
-        laudantium neque dolor.
+        If you would like to ensure that your friend is handled with care and
+        dignity, feel free to contact us.
       </p>
       <Link
         className="btn btn-outline-light btn-lg"
