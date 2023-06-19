@@ -11,6 +11,10 @@ p {
   font-size: 1.2rem;
 }
 
+img {
+  border-radius: 10px;
+}
+
 :root {
   --font-weight-bold: 600;
   --font-weight-medium: 500;
@@ -260,7 +264,12 @@ footer {
   font-size: 4rem;
 }
 
+.grooming-para-text {
+  max-width: 900px;
+}
+
 .services-container {
+  max-width: 600px;
   gap: 50px;
 }
 
@@ -282,7 +291,7 @@ a {
 }
 
 .proposition-container {
-  background-color: #8f252b;
+  background-color: #178f35;
 }
 
 .business-proposition-text {

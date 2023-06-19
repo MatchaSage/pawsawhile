@@ -3,19 +3,23 @@ import dogPic from "../../images/dog-beach.jpg";
 
 export default function groomingServices() {
   return (
-    <div className="grooming-services-container d-flex flex-column align-items-center pt-5 p-5">
+    <div className="grooming-services-container d-flex flex-column align-items-center p-5">
       <h1 className="grooming-services--header-text">Services</h1>
-      <div className="services-container  d-flex flex-row">
-        <div className="services-container--one d-flex flex-column grooming-para-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <div className="services-container  d-flex flex-row w-100 justify-content-center">
+        <div className="services-container--one d-flex flex-column align-items-start grooming-para-text">
+          <ul>
+            <li>Shaving Pads</li>
+            <li>Nail Trimming</li>
+            <li>Special bathing and conditioning</li>
+          </ul>
         </div>
 
-        <div className="services-container--two d-flex flex-column grooming-para-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div className="services-container--two d-flex flex-column grooming-para-text align-items-start ">
+          <ul>
+            <li>Cleaning Ears</li>
+            <li>Expressing anal glands</li>
+            <li>Complete all breed grooming for dogs and cats</li>
+          </ul>
         </div>
       </div>
       <div className="picture-container d-flex flex-column align-items-center">

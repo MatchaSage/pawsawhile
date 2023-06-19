@@ -6,19 +6,16 @@ export default function groomingInfo() {
       <h1 className="grooming-info--header-text container d-flex justify-content-center align-items-center pt-2">
         Grooming Info
       </h1>
-      <div className="grooming-info--paragraph-container w-75">
+      <div className="grooming-info--paragraph-container w-50">
         <p className="lead pb-4 grooming-para-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          sapiente assumenda, laboriosam illo corrupti aperiam nulla cupiditate
-          perferendis velit maiores, consectetur, pariatur libero doloremque
-          iusto incidunt exercitationem nemo esse error. Aspernatur incidunt id
-          molestiae iusto, explicabo, rerum ipsum iure vitae neque sit veritatis
-          nesciunt tempora facere reiciendis! Repudiandae possimus perspiciatis,
-          voluptatibus ex cupiditate nam harum id, sunt, tempore sapiente porro
-          odit dignissimos cumque. Explicabo quis non deserunt a, amet nihil
-          minima. Quaerat, fugiat nobis. Sequi beatae earum magnam ab nulla
-          velit autem doloremque quis veniam amet optio rerum voluptatibus sunt
-          perferendis id voluptatum iusto, soluta, non ut ea eos nostrum!
+          We are pleased to let you know that Paws Awhile is still partnered
+          with CJ's Salon! Cynthia still works on the premises offering stellar
+          customer focused care. As the business has grown, CJ's has offered
+          quality care to steady and loyal clients for over 20 years. Here your
+          pet is encouraged to play and interact with others in a safe,
+          controlled environment as they wait. We are also equipped with a wide
+          range of specialized shampoos, which you can request at an additional
+          cost. Check out our services below.
         </p>
       </div>
     </div>
