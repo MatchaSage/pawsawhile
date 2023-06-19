@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function groomingProposition() {
   return (
@@ -10,9 +11,13 @@ export default function groomingProposition() {
         sint labore, quae soluta nostrum deleniti nihil a assumenda? Veniam,
         repudiandae.
       </p>
-      <a className="btn btn-outline-light btn-lg" href="#!" role="button">
+      <Link
+        className="btn btn-outline-light btn-lg"
+        to="/Contact"
+        role="button"
+      >
         Get in Touch
-      </a>
+      </Link>
     </div>
   );
 }
