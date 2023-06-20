@@ -6,19 +6,25 @@ export default function pawsContact() {
     <div className="paws-contact-container d-flex flex-column align-items-center justify-content-between p-5 mt-5">
       <img className="contact-logo" src={Logo} alt="Logo" />
       <div className="d-flex flex-md-row flex-column form-content">
-        <form className="d-flex flex-column" name="submission-form" netlify>
+        <form
+          className="d-flex flex-column"
+          name="contact"
+          action="/contact"
+          method="post"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" className="pt-2">
             Name
           </label>
-          <input type="text" id="name" name="name" required></input>
+          <input type="text" id="name" name="name" required />
           <label htmlFor="number" className="pt-2">
             Number
           </label>
-          <input type="tel" id="number" name="number" required></input>
+          <input type="tel" id="number" name="number" required />
           <label htmlFor="email" className="pt-2">
             Email
           </label>
-          <input type="email" id="email" name="email" required></input>
+          <input type="email" id="email" name="email" required />
           <label htmlFor="message" className="pt-2">
             Message
           </label>
