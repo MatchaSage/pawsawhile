@@ -9,7 +9,7 @@ export default function PawsHero() {
       <div className="hero-background">
         <div
           className="h-100 mask"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           <div className="hero-text flex-column text-white h-100 d-flex justify-content-center align-items-center">
             <h1 className="mb-1">Paws Awhile</h1>
