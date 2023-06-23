@@ -8,10 +8,14 @@ export default function AboutJoe() {
       <div className="about-joe-content d-flex flex-md-row flex-column justify-content-center">
         <img src={Joe} alt="Joe Picture" />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          officiis cum eos magni iste quam excepturi vel? Enim consectetur in,
-          quia eaque deleniti, similique delectus non sequi, officiis ratione
-          quod.
+          In the late 80's, Joe had a dream of opening a pet cemetery to help
+          ease people through the process of saying goodbye to their loving
+          pets. Shortly after that Joe began construction of the grounds,
+          building out the driveways and planting the grass to create the Paws
+          Awhile grounds. In 1991, Joe had his grand opening, and ever since
+          then has been helping give pets who have passed the respect and
+          dignity they deserve. Whenever he isn't working, Joe is a family man
+          who loves spending time with his daughters.
         </p>
       </div>
     </div>

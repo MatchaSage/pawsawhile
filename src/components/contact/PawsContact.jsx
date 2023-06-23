@@ -46,7 +46,7 @@ export default function pawsContact() {
             <b>Hours:</b> By Appointment
           </span>
           <span>
-            <b>Phone:</b>
+            <b>Phone:</b> 330-659-4270
           </span>
         </div>
       </div>
