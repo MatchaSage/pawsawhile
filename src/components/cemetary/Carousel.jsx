@@ -3,14 +3,13 @@ import grounds1 from "../../images/grounds1.jpg";
 import grounds2 from "../../images/grounds2.jpg";
 import grounds3 from "../../images/grounds3.jpg";
 import grounds4 from "../../images/grounds4.jpg";
-import grounds5 from "../../images/grounds5.jpg";
 
 export default function Carousel() {
   const [length, setLength] = useState(0);
-  const groundsArray = [grounds1, grounds2, grounds3, grounds4, grounds5];
+  const groundsArray = [grounds1, grounds2, grounds3, grounds4];
 
   function incrementLength() {
-    if (length < 4) {
+    if (length < 3) {
       setLength(length + 1);
     } else {
       setLength(0);
@@ -21,7 +20,7 @@ export default function Carousel() {
     if (length > 0) {
       setLength(length - 1);
     } else {
-      setLength(4);
+      setLength(3);
     }
   }
   return (

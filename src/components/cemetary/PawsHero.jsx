@@ -13,7 +13,7 @@ export default function PawsHero() {
         >
           <div className="hero-text flex-column text-white h-100 d-flex justify-content-center align-items-center">
             <h1 className="mb-1">Paws Awhile</h1>
-            <h2 className="mb-5">Pet Cemetary</h2>
+            <h2 className="mb-5">Pet Memorial Park</h2>
             <Link
               className="btn btn-outline-light btn-lg"
               to="/Contact"
