@@ -7,11 +7,6 @@ import grounds4 from "../../images/grounds4.jpg";
 export default function Carousel() {
   const [length, setLength] = useState(0);
   const groundsArray = [grounds1, grounds2, grounds3, grounds4];
-  //Loads all carousel images early for a more responsive experience.
-  groundsArray.forEach((picture) => {
-    const img = new Image();
-    img.src = picture.jpg;
-  });
 
   function incrementLength() {
     if (length < 3) {
