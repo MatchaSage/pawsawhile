@@ -1,5 +1,5 @@
 import React from "react";
-import Joe from "../../images/joe.jpg";
+import Joe from "../../../public/images/joe.jpg";
 
 export default function AboutJoe() {
   return (

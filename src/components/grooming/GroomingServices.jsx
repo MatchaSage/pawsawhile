@@ -1,5 +1,5 @@
 import React from "react";
-import dogPic from "../../images/dog-beach.jpg";
+import dogPic from "../../../public/images/dog-beach.jpg";
 
 export default function groomingServices() {
   return (

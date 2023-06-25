@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/paws_logo.png";
+import Logo from "../../../public/images/paws_logo.png";
 
 export default function pawsContact() {
   return (

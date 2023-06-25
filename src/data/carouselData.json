@@ -1,0 +1,20 @@
+{
+  "slides": [
+    {
+      "src": "./images/grounds1.jpg",
+      "alt": "Grounds1"
+    },
+    {
+      "src": "./images/grounds2.jpg",
+      "alt": "Grounds2"
+    },
+    {
+      "src": "./images/grounds3.jpg",
+      "alt": "Grounds3"
+    },
+    {
+      "src": "./images/grounds4.jpg",
+      "alt": "Grounds4"
+    }
+  ]
+}

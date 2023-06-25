@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/paws_logo.png";
+import logo from "../../public/images/paws_logo.png";
 export default function Header() {
   return (
     <header className="fixed-top">
