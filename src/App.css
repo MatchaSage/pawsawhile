@@ -330,6 +330,7 @@ textarea {
 }
 
 .contact-logo {
+  box-shadow: none;
   width: 20%;
 }
 
