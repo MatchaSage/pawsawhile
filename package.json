@@ -14,7 +14,11 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-lazy-load-image-component": "^1.6.0",
+=======
+    "react-icons": "^4.10.1",
+>>>>>>> 866a6bf8be999e7cf9b4a432dcc899329af04cc3
     "react-router-dom": "^6.12.1"
   },
   "devDependencies": {

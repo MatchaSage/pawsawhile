@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/paws_logo.png";
+import Logo from "../../../public/images/paws_logo.png";
 
 export default function pawsContact() {
   return (
@@ -46,7 +46,7 @@ export default function pawsContact() {
             <b>Hours:</b> By Appointment
           </span>
           <span>
-            <b>Phone:</b>
+            <b>Phone:</b> 330-659-4270
           </span>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import dogPic from "../../images/dog-beach.jpg";
+import dogPic from "../../../public/images/dog-beach.jpg";
 
 export default function groomingServices() {
   return (
@@ -21,11 +21,11 @@ export default function groomingServices() {
       <div className="picture-container d-flex flex-column align-items-center">
         <img src={dogPic} alt="border collie on a beach"></img>
         <p className="pt-2">
-          Photo by
+          Photo by&nbsp;
           <a href="https://unsplash.com/es/@paulinel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-            Pauline Loroy
+            Pauline Loroy&nbsp;
           </a>
-          on
+          on&nbsp;
           <a href="https://unsplash.com/photos/U3aF7hgUSrk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             Unsplash
           </a>

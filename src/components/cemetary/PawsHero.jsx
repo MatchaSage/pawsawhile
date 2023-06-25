@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cemetaryEntrance from "../../images/cemetaryEntrance.jpg";
-import angelImg from "../../images/angel.jpg";
 
 export default function PawsHero() {
   return (

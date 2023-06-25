@@ -1,35 +1,55 @@
 import React, { useState } from "react";
-import grounds1 from "../../images/grounds1.jpg";
-import grounds2 from "../../images/grounds2.jpg";
-import grounds3 from "../../images/grounds3.jpg";
-import grounds4 from "../../images/grounds4.jpg";
+import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+import "../../carousel.css";
+export default function Carousel({ data }) {
+  const [slide, setSlide] = useState(0);
 
-export default function Carousel() {
-  const [length, setLength] = useState(0);
-  const groundsArray = [grounds1, grounds2, grounds3, grounds4];
-
-  function incrementLength() {
-    if (length < 3) {
-      setLength(length + 1);
+  function nextSlide() {
+    if (slide === data.length - 1) {
+      setSlide(0);
     } else {
-      setLength(0);
+      setSlide(slide + 1);
     }
   }
 
-  function decrementLength() {
-    if (length > 0) {
-      setLength(length - 1);
+  function prevSlide() {
+    if (slide === 0) {
+      setSlide(data.length - 1);
     } else {
-      setLength(3);
+      setSlide(slide - 1);
     }
   }
+
   return (
-    <div className="carousel d-flex flex-column justify-content-center align-items-center">
-      <img src={groundsArray[length]} alt="Grounds Image" className="mb-5" />
-      <div className="icon-container">
-        <i className="arrow left-arrow" onClick={decrementLength}></i>
-        <i className="arrow right-arrow" onClick={incrementLength}></i>
-      </div>
+    <div className="carousel">
+      <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
+      {data.map((item, idx) => {
+        return (
+          <img
+            src={item.src}
+            alt={item.alt}
+            key={idx}
+            className={slide === idx ? "slide" : "slide slide-hidden"}
+          />
+        );
+      })}
+      <BsArrowRightCircleFill
+        className="arrow arrow-right"
+        onClick={nextSlide}
+      />
+      <span className="indicators">
+        {data.map((_, idx) => {
+          return (
+            <button
+              key={idx}
+              onClick={null}
+              className={
+                slide === idx ? "indicator" : "indicator indicator-inactive"
+              }
+            ></button>
+          );
+        })}
+      </span>
     </div>
   );
 }

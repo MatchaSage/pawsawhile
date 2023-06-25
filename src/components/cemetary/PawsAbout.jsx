@@ -1,5 +1,5 @@
 import React from "react";
-import CemetaryEntrance from "../../images/cemetaryEntrance.jpg";
+import CemetaryEntrance from "../../../public/images/cemetaryEntrance.jpg";
 export default function PawsAbout() {
   return (
     <div className="paws-about p-5 bg-light">

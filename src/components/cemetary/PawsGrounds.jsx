@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
+import { slides } from "../../data/carouselData.json";
 
 export default function PawsGrounds() {
   return (
@@ -13,7 +14,7 @@ export default function PawsGrounds() {
             a perpetual care fund to secure the final resting place of your
             special friend.
           </p>
-          <Carousel />
+          <Carousel data={slides} />
         </div>
       </div>
     </div>
