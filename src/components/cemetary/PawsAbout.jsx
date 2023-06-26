@@ -8,7 +8,7 @@ export default function PawsAbout() {
       </div>
       <div className="paws-about-content d-flex flex-column justify-content-center align-items-center align-items-md-start flex-md-row">
         <p className="paws-about-text">
-          Paws Awhile has been providing proffesional afterlife options to pet
+          Paws Awhile has been providing professional afterlife options to pet
           owners for the past 33 years. We are a family owned business
           conveniently located on a 23 acre wooded park-like setting adjacent to
           the Cuyahoga Valley National Park in Richfield, and roughly 16 miles
