@@ -55,7 +55,7 @@ header img {
 
 .hero-background {
   height: 100%;
-  background-image: url(./images/angel.jpg);
+  background-image: url(../public/images/angel.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 20%;
@@ -215,7 +215,7 @@ footer {
 
 .grooming-background {
   height: 100%;
-  background-image: url(./images/grooming-front.jpg);
+  background-image: url(../public/images/grooming-front.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 20%;
@@ -287,7 +287,7 @@ a {
 
 .contact-background {
   height: 90vh;
-  background-image: url("./images/paws-entrance.JPG");
+  background-image: url("../public/images/paws-entrance.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
