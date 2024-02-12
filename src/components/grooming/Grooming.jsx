@@ -7,10 +7,13 @@ import PawsLocation from "../cemetary/PawsLocation";
 import Header from "../Header";
 import Footer from "../Footer";
 
-export default function Grooming() {
+export default function Grooming(props) {
   return (
     <div className="grooming-header">
-      <Header />
+      <Header
+        menuClicked={props.menuClicked}
+        setMenuClicked={props.setMenuClicked}
+      />
       <GroomingHero />
       <GroomingInfo />
       <GroomingServices />

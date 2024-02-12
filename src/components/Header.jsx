@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../public/images/paws_logo.png";
 import menuIcon from "../../public/images/menu-icon.png";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <header className="fixed-top">
       <nav className="d-flex justify-content-between align-items-center p-2">
@@ -26,7 +26,14 @@ export default function Header() {
             Contact
           </Link>
         </div>
-        <img src={menuIcon} alt="Menu Icon" className="px-3 menu-icon" />
+        <img
+          src={menuIcon}
+          alt="Menu Icon"
+          className="px-3 menu-icon"
+          onClick={() => {
+            props.setMenuClicked(!props.menuClicked);
+          }}
+        />
       </nav>
     </header>
   );

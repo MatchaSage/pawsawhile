@@ -2,7 +2,7 @@ import React from "react";
 
 export default function groomContact() {
   return (
-    <div className="grooming-contact-container d-flex flex-column align-items-center my-5 p-5">
+    <div className="grooming-contact-container d-flex flex-column align-items-center mb-5 p-5">
       <h1>CJ's Salon</h1>
       <span className="grooming-contact--text">
         <b>Phone: </b>

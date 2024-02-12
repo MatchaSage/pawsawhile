@@ -10,10 +10,13 @@ import AboutJoe from "./AboutJoe";
 import PawsProposition from "./PawsProposition";
 import Footer from "../Footer";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div className="home">
-      <Header />
+      <Header
+        menuClicked={props.menuClicked}
+        setMenuClicked={props.setMenuClicked}
+      />
       <PawsHero />
       <PawsAbout />
       <PawsGrounds />
