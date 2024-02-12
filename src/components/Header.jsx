@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../public/images/paws_logo.png";
+import menuIcon from "../../public/images/menu-icon.png";
+
 export default function Header() {
   return (
     <header className="fixed-top">
@@ -17,10 +19,14 @@ export default function Header() {
           <Link to="/Grooming" className="px-3">
             Grooming
           </Link>
+          <Link to="/Therapy" className="px-3">
+            Therapy
+          </Link>
           <Link to="/Contact" className="px-3">
             Contact
           </Link>
         </div>
+        <img src={menuIcon} alt="Menu Icon" className="px-3 menu-icon" />
       </nav>
     </header>
   );
