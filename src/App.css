@@ -423,6 +423,7 @@ textarea {
 }
 
 .therapy-contact-container {
+  text-align: center;
   background-color: #358aaf;
   width: 80%;
   border-radius: 10px;
@@ -433,10 +434,16 @@ textarea {
 }
 
 .grooming-contact-container {
+  text-align: center;
   background-color: #178f35;
   width: 80%;
   border-radius: 10px;
 }
+
+.kennel {
+  background-color: rgb(163, 92, 163) !important;
+}
+
 .grooming-contact-container > span {
   font-size: 1.6rem;
 }
