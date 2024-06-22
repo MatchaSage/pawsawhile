@@ -264,13 +264,22 @@ footer {
 
 /*Grooming Styling*/
 
-.grooming-header {
+.grooming-header,
+.kennel-header {
   height: 90vh;
 }
 
 .grooming-background {
   height: 100%;
   background-image: url(../public/images/grooming-front.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+.kennel-background {
+  height: 100%;
+  background-image: url(../public/images/Dogs_playing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 20%;

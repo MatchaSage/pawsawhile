@@ -16,6 +16,9 @@ export default function Header(props) {
           <Link to="/" className="px-3 ">
             Home
           </Link>
+          <Link to="/Kennel" className="px-3 ">
+            Kennel
+          </Link>
           <Link to="/Grooming" className="px-3">
             Grooming
           </Link>

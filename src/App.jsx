@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Contact from "./components/contact/Contact.jsx";
 import Therapy from "./components/therapy/Therapy.jsx";
+import Kennel from "./components/Kennel/Kennel.jsx";
 import Grooming from "./components/grooming/Grooming.jsx";
 import Home from "./components/cemetary/Home.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
@@ -21,6 +22,15 @@ export default function App() {
               path="/"
               element={
                 <Home
+                  menuClicked={menuClicked}
+                  setMenuClicked={setMenuClicked}
+                />
+              }
+            />
+            <Route
+              path="Kennel"
+              element={
+                <Kennel
                   menuClicked={menuClicked}
                   setMenuClicked={setMenuClicked}
                 />
@@ -75,6 +85,15 @@ export default function App() {
               }}
             >
               Home
+            </Link>
+            <Link
+              to="/Kennel"
+              className="px-3"
+              onClick={() => {
+                setMenuClicked(!menuClicked);
+              }}
+            >
+              Kennel
             </Link>
             <Link
               to="/Grooming"
