@@ -7,7 +7,7 @@ export default function KennelInfo() {
         Kennel Info
       </h1>
       <div className="grooming-info--paragraph-container w-50">
-        <p className="lead pb-4 grooming-para-text">
+        <p className="lead pb-4 ">
           Nestled on over 20 acres in Richfield Ohio, you'll find the perfect
           vacation in a country setting for your pet. We provide a safe,
           comfortable and fun atmosphere to play, stay, eat, sleep and repeat.
@@ -23,10 +23,10 @@ export default function KennelInfo() {
         <h1 className="grooming-info--header-text container d-flex justify-content-center align-items-center pt-2">
           Contact
         </h1>
-        <p className="lead  grooming-para-text container d-flex justify-content-center align-items-center pt-2">
+        <p className="lead container d-flex justify-content-center align-items-center pt-2">
           <b>Call or Text: &nbsp;</b>216-370-2939
         </p>
-        <p className="lead grooming-para-text container d-flex justify-content-center align-items-center pt-2">
+        <p className="lead container d-flex justify-content-center align-items-center pt-2">
           <b>Email: &nbsp;</b>welovedogs24@yahoo.com
         </p>
       </div>
