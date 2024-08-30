@@ -6,7 +6,10 @@ export default function AboutJoe() {
     <div className="about-joe d-flex flex-column align-items-center p-5">
       <h1 className="mb-4">About Joe</h1>
       <div className="about-joe-content d-flex flex-md-row flex-column justify-content-center">
-        <img src={Joe} alt="Joe Picture" />
+        <div className="d-flex flex-column align-items-center">
+          <img src={Joe} alt="Joe Picture" />
+        </div>
+
         <p>
           In the late 80's, Joe had a dream of opening a pet cemetery to help
           ease people through the process of saying goodbye to their loving
